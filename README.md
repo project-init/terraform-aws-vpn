@@ -58,5 +58,7 @@ Check our [Examples](examples) for full usage information.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_vpn_security_group_id"></a> [vpn\_security\_group\_id](#output\_vpn\_security\_group\_id) | The security group id. |
 <!-- END_TF_DOCS -->
