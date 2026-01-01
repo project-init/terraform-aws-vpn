@@ -80,7 +80,7 @@ module "openvpn_ec2" {
 
 module "secret" {
   source  = "project-init/secret/aws"
-  version = "v0.1.0"
+  version = "0.2.0"
 
   environment = var.environment
   secret_name = "vpn"
