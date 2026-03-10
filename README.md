@@ -53,6 +53,7 @@ Check our [Examples](examples) for full usage information.
 | <a name="input_admin_username"></a> [admin\_username](#input\_admin\_username) | Administrator username for VPN Access Server web interface | `string` | n/a | yes |
 | <a name="input_environment"></a> [environment](#input\_environment) | The environment where the vpn is being deployed. | `string` | n/a | yes |
 | <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | The EC2 instance type for the OpenVPN server | `string` | `"t3.small"` | no |
+| <a name="input_openvpn_product_code"></a> [openvpn\_product\_code](#input\_openvpn\_product\_code) | The product code of the openvpn server type you want. | `string` | n/a | yes |
 | <a name="input_subnet_id"></a> [subnet\_id](#input\_subnet\_id) | The subnet ID where the VPN instance will be launched (should be a public subnet) | `string` | n/a | yes |
 | <a name="input_vpc_id"></a> [vpc\_id](#input\_vpc\_id) | The VPC ID where the VPN instance will be deployed | `string` | n/a | yes |
 

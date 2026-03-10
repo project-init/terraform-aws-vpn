@@ -10,8 +10,13 @@ data "aws_ami" "openvpn" {
   owners      = ["aws-marketplace"]
 
   filter {
-    name   = "image-id"
-    values = ["ami-06e5a963b2dadea6f"] // us-east-1 OpenVPN Marketplace AMI ID
+    name   = "product-code"
+    values = [var.openvpn_product_code]
+  }
+
+  filter {
+    name   = "state"
+    values = ["available"]
   }
 }
 
