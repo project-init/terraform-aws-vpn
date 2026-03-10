@@ -39,3 +39,9 @@ variable "environment" {
   type        = string
   description = "The environment where the vpn is being deployed."
 }
+
+variable "openvpn_product_code" {
+  type        = string
+  description = "The product code of the openvpn server type you want."
+  nullable    = false
+}
